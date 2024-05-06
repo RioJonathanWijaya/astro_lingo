@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD052C522BE3174C00F7655A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD052C512BE3174C00F7655A /* Question.swift */; };
+		FD052C542BE36AB100F7655A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD052C532BE36AB100F7655A /* Score.swift */; };
+		FD052C562BE3873800F7655A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD052C552BE3873800F7655A /* DetailView.swift */; };
+		FD052C582BE3991200F7655A /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD052C572BE3991200F7655A /* Container.swift */; };
+		FD120BB52BE6C13600DD0574 /* MasteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD120BB42BE6C13600DD0574 /* MasteryView.swift */; };
+		FD1C16862BE0EBF100133A23 /* readJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C16852BE0EBF100133A23 /* readJSON.swift */; };
+		FD1C16882BE0EC5100133A23 /* data-2.json in Resources */ = {isa = PBXBuildFile; fileRef = FD1C16872BE0EC5100133A23 /* data-2.json */; };
+		FD62640C2BE0C89B004A0B72 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62640B2BE0C89B004A0B72 /* Answer.swift */; };
+		FD62640E2BE0C94A004A0B72 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62640D2BE0C94A004A0B72 /* AnswerRow.swift */; };
 		FD6C80F32BDB939E001ADFF1 /* AstroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C80F22BDB939E001ADFF1 /* AstroApp.swift */; };
 		FD6C80F52BDB939E001ADFF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C80F42BDB939E001ADFF1 /* ContentView.swift */; };
 		FD6C80F72BDB939E001ADFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6C80F62BDB939E001ADFF1 /* Assets.xcassets */; };
@@ -14,6 +23,12 @@
 		FD6C81042BDB939F001ADFF1 /* AstroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C81032BDB939F001ADFF1 /* AstroTests.swift */; };
 		FD6C810E2BDB939F001ADFF1 /* AstroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C810D2BDB939F001ADFF1 /* AstroUITests.swift */; };
 		FD6C81102BDB939F001ADFF1 /* AstroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C810F2BDB939F001ADFF1 /* AstroUITestsLaunchTests.swift */; };
+		FD6C811D2BDB982E001ADFF1 /* SPACE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD6C811C2BDB982E001ADFF1 /* SPACE.ttf */; };
+		FD6C81222BDBB0D5001ADFF1 /* StageLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C81212BDBB0D5001ADFF1 /* StageLevelView.swift */; };
+		FD6C81252BDF3CF7001ADFF1 /* buttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C81242BDF3CF7001ADFF1 /* buttonView.swift */; };
+		FD6C81292BDF6E84001ADFF1 /* StageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C81282BDF6E84001ADFF1 /* StageDetailView.swift */; };
+		FD6C812C2BDF8375001ADFF1 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C812B2BDF8375001ADFF1 /* LevelView.swift */; };
+		FD6C812E2BE0A4C7001ADFF1 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C812D2BE0A4C7001ADFF1 /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD052C512BE3174C00F7655A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FD052C532BE36AB100F7655A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		FD052C552BE3873800F7655A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FD052C572BE3991200F7655A /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		FD120BB42BE6C13600DD0574 /* MasteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteryView.swift; sourceTree = "<group>"; };
+		FD1C16852BE0EBF100133A23 /* readJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readJSON.swift; sourceTree = "<group>"; };
+		FD1C16872BE0EC5100133A23 /* data-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "data-2.json"; path = "../../../Downloads/data-2.json"; sourceTree = "<group>"; };
+		FD62640B2BE0C89B004A0B72 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		FD62640D2BE0C94A004A0B72 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		FD6C80EF2BDB939E001ADFF1 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6C80F22BDB939E001ADFF1 /* AstroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroApp.swift; sourceTree = "<group>"; };
 		FD6C80F42BDB939E001ADFF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,13 @@
 		FD6C81092BDB939F001ADFF1 /* AstroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6C810D2BDB939F001ADFF1 /* AstroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroUITests.swift; sourceTree = "<group>"; };
 		FD6C810F2BDB939F001ADFF1 /* AstroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD6C811C2BDB982E001ADFF1 /* SPACE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SPACE.ttf; path = ../../../Downloads/SPACE.ttf; sourceTree = "<group>"; };
+		FD6C811E2BDB98A0001ADFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD6C81212BDBB0D5001ADFF1 /* StageLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageLevelView.swift; sourceTree = "<group>"; };
+		FD6C81242BDF3CF7001ADFF1 /* buttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonView.swift; sourceTree = "<group>"; };
+		FD6C81282BDF6E84001ADFF1 /* StageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageDetailView.swift; sourceTree = "<group>"; };
+		FD6C812B2BDF8375001ADFF1 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		FD6C812D2BE0A4C7001ADFF1 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +102,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD359B422BE4EC95003B545F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FD6264082BE0AFE6004A0B72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FD6C81242BDF3CF7001ADFF1 /* buttonView.swift */,
+				FD62640D2BE0C94A004A0B72 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FD6264092BE0AFF9004A0B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD6C80F42BDB939E001ADFF1 /* ContentView.swift */,
+				FD120BB42BE6C13600DD0574 /* MasteryView.swift */,
+				FD6C81212BDBB0D5001ADFF1 /* StageLevelView.swift */,
+				FD6C81282BDF6E84001ADFF1 /* StageDetailView.swift */,
+				FD6C812B2BDF8375001ADFF1 /* LevelView.swift */,
+				FD6C812D2BE0A4C7001ADFF1 /* ScoreView.swift */,
+				FD052C552BE3873800F7655A /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD62640A2BE0C882004A0B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD62640B2BE0C89B004A0B72 /* Answer.swift */,
+				FD1C16852BE0EBF100133A23 /* readJSON.swift */,
+				FD052C512BE3174C00F7655A /* Question.swift */,
+				FD052C532BE36AB100F7655A /* Score.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FD6C80E62BDB939E001ADFF1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +166,15 @@
 		FD6C80F12BDB939E001ADFF1 /* Astro */ = {
 			isa = PBXGroup;
 			children = (
+				FD6C811E2BDB98A0001ADFF1 /* Info.plist */,
+				FD6C811C2BDB982E001ADFF1 /* SPACE.ttf */,
 				FD6C80F22BDB939E001ADFF1 /* AstroApp.swift */,
-				FD6C80F42BDB939E001ADFF1 /* ContentView.swift */,
+				FD052C572BE3991200F7655A /* Container.swift */,
+				FD1C16872BE0EC5100133A23 /* data-2.json */,
+				FD62640A2BE0C882004A0B72 /* Models */,
+				FD359B422BE4EC95003B545F /* Sounds */,
+				FD6264092BE0AFF9004A0B72 /* Views */,
+				FD6264082BE0AFE6004A0B72 /* Components */,
 				FD6C80F62BDB939E001ADFF1 /* Assets.xcassets */,
 				FD6C80F82BDB939E001ADFF1 /* Preview Content */,
 			);
@@ -231,7 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6C811D2BDB982E001ADFF1 /* SPACE.ttf in Resources */,
 				FD6C80FA2BDB939E001ADFF1 /* Preview Assets.xcassets in Resources */,
+				FD1C16882BE0EC5100133A23 /* data-2.json in Resources */,
 				FD6C80F72BDB939E001ADFF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6C81222BDBB0D5001ADFF1 /* StageLevelView.swift in Sources */,
+				FD62640E2BE0C94A004A0B72 /* AnswerRow.swift in Sources */,
+				FD6C812C2BDF8375001ADFF1 /* LevelView.swift in Sources */,
 				FD6C80F52BDB939E001ADFF1 /* ContentView.swift in Sources */,
+				FD120BB52BE6C13600DD0574 /* MasteryView.swift in Sources */,
+				FD1C16862BE0EBF100133A23 /* readJSON.swift in Sources */,
+				FD6C81252BDF3CF7001ADFF1 /* buttonView.swift in Sources */,
+				FD6C812E2BE0A4C7001ADFF1 /* ScoreView.swift in Sources */,
+				FD052C562BE3873800F7655A /* DetailView.swift in Sources */,
+				FD6C81292BDF6E84001ADFF1 /* StageDetailView.swift in Sources */,
+				FD052C542BE36AB100F7655A /* Score.swift in Sources */,
 				FD6C80F32BDB939E001ADFF1 /* AstroApp.swift in Sources */,
+				FD052C582BE3991200F7655A /* Container.swift in Sources */,
+				FD052C522BE3174C00F7655A /* Question.swift in Sources */,
+				FD62640C2BE0C89B004A0B72 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +519,7 @@
 				DEVELOPMENT_TEAM = 3K8JGLP9HY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +549,7 @@
 				DEVELOPMENT_TEAM = 3K8JGLP9HY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
